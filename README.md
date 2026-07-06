@@ -46,11 +46,3 @@ Backend ini dipakai oleh aplikasi Android FutClub sesuai ketentuan UAS Mobile Pr
 | `gallery.php` | GET, POST, DELETE | Kelola foto gallery komunitas (maks 3) |
 | `users.php` | GET, PUT | Lihat / edit profil user |
 
-Contoh request & response lengkap tiap endpoint akan aku buatkan di dokumen terpisah
-(`API_DOCUMENTATION.md`) yang bisa langsung kamu pakai untuk laporan UAS poin nomor 2.
-
-## Catatan Upload Foto
-
-Untuk sekarang, field `photo_url` diasumsikan berupa URL gambar yang sudah di-upload
-(misal ke Firebase Storage atau ImgBB). Kalau kamu mau upload file langsung ke server PHP
-ini (folder `uploads/`), bilang aja nanti aku tambahin endpoint upload-nya.
